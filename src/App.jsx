@@ -3,6 +3,7 @@ import Landing from "./scenes/Landing";
 import DotGroup from "./scenes/DotGroup";
 import LineGradient from "./components/LineGradient";
 import MySkills from "./scenes/MySkills";
+import Projects from "./scenes/Projects";
 
 import useMediaQuery from "./hooks/useMediaQuery";
 import { useEffect, useState } from "react";
@@ -53,7 +54,7 @@ function App() {
       <LineGradient />
 
       {/* SKILLS */}
-      <div className="w-5/6 mx-auto md:h-full ">
+      <div className="w-5/6 mx-auto ">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
@@ -62,6 +63,19 @@ function App() {
           <MySkills />
         </motion.div>
       </div>
+      <LineGradient />
+
+      {/* PROJECTS */}
+      <div className="w-5/6 mx-auto ">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("projects")}
+        >
+          <Projects />
+        </motion.div>
+      </div>
+      <LineGradient />
     </div>
   );
 }
