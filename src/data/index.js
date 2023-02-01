@@ -102,12 +102,12 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    title: "Coffee Shop",
+    title: "Sociopedia",
     subtitle:
-      "Estudo e pratico HTML, essa tecnologia está presente na maioria dos meus projetos.",
+      "Uma rede social na qual você pode registrar um usuário com imagem, fazer login com ele, adicionar amigos, publicar e possui temas claro/escuro.",
     icon: sociopedia,
     github: "https://github.com/guigvd/coffee-shop",
-    deploy: "https://guigvd.github.io/coffee-shop/",
+    deploy: null,
   },
   {
     id: 2,

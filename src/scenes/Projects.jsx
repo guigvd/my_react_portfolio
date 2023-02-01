@@ -18,30 +18,27 @@ const projectVariant = {
 };
 
 const Project = ({ title, subtitle, icon, github, deploy, index }) => {
-  const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-black`;
+  const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-grey z-30 flex flex-col justify-around items-center text-center p-5 text-black`;
 
   return (
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
+        {/* HEADINGS */}
         <p className="text-2xl font-playfair font-bold">{title}</p>
-        <p className="mt-5">{subtitle}</p>
+        <p className="mt-5 overflow-auto">{subtitle}</p>
 
-        <div className="flex justify-between w-full font-semibold border-solid  pt-4">
+        {/* DEPLOY AND CODE */}
+        <div className="flex justify-between w-full font-semibold pt-4">
           <a href={deploy} target="_blank" rel="noreferrer">
             {deploy ? (
               <i className="fa-solid fa-link" />
             ) : (
               <i className="fa-solid fa-link-slash" />
-            )}
+            )}{" "}
             Deploy
           </a>
-          <a
-            href={github}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fa-brands fa-github"></i>
-            Code
+          <a href={github} target="_blank" rel="noreferrer">
+            <i className="fa-brands fa-github"></i> Code
           </a>
         </div>
       </div>
@@ -91,7 +88,6 @@ const Projects = () => {
           {projects.map((project, index) => (
             <Project key={project.id} {...project} index={index} />
           ))}
-          
         </motion.div>
       </div>
     </section>
