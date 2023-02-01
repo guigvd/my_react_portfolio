@@ -106,82 +106,82 @@ export const projects = [
     subtitle:
       "Uma rede social na qual você pode registrar um usuário com imagem, fazer login com ele, adicionar amigos, publicar e possui temas claro/escuro.",
     icon: sociopedia,
-    github: "https://github.com/guigvd/coffee-shop",
+    github: "https://github.com/guigvd/react-sociopedia",
     deploy: null,
   },
   {
     id: 2,
     title: "EVOGYM",
     subtitle:
-      "Estudo e pratico HTML, essa tecnologia está presente na maioria dos meus projetos.",
+      "Uma landing page sobre uma academia que contém informações sobre os benefícios, as classes e uma seção de contato.",
     icon: evogym,
     github: "https://github.com/guigvd/gym-app",
     deploy: "https://guigvd-evogym.netlify.app/",
   },
   {
     id: 3,
-    title: "Coffee Shop",
+    title: "ECOMMER",
     subtitle:
-      "Estudo e pratico HTML, essa tecnologia está presente na maioria dos meus projetos.",
+      "Uma loja online de camisas na qual contem uma lista com os itens, um carrinho ao qual adicionar os items e uma seção de checkout.",
     icon: ecommer,
-    github: "https://github.com/guigvd/coffee-shop",
-    deploy: "https://guigvd.github.io/coffee-shop/",
+    github: "https://github.com/guigvd/react-ecommer",
+    deploy: null,
   },
 
   {
     id: 4,
     title: "Hoobank",
     subtitle:
-      "Estudo e pratico HTML, essa tecnologia está presente na maioria dos meus projetos.",
+      "Uma landing page sobre um banco que contém informações sobre o banco ,seus produtos e melhores acordos.",
     icon: hoobank,
     github: "https://github.com/guigvd/hoobank",
     deploy: "https://guigvd.github.io/hoobank/",
   },
   {
     id: 5,
-    title: "Coffee Shop",
+    title: "Store",
     subtitle:
-      "Estudo e pratico HTML, essa tecnologia está presente na maioria dos meus projetos.",
+      "Um projeto de uma loja que contem informações sobre seus produtos e é possível adicionar ao carrinho para finalizar a compra.",
     icon: store,
-    github: "https://github.com/guigvd/coffee-shop",
-    deploy: "https://guigvd.github.io/coffee-shop/",
+    github: "https://github.com/guigvd/store",
+    deploy: "https://guigvd-store.netlify.app/",
   },
   {
     id: 6,
     title: "Coffee Shop",
     subtitle:
-      "Estudo e pratico HTML, essa tecnologia está presente na maioria dos meus projetos.",
+      "Uma landing page sobre uma loja de café que contem várias informações sobre a loja, seus produtos, review de seus clientes entre outras.",
     icon: coffeeShop,
     github: "https://github.com/guigvd/coffee-shop",
     deploy: "https://guigvd.github.io/coffee-shop/",
   },
   {
     id: 7,
-    title: "Coffee Shop",
+    title: "Busca CEP",
     subtitle:
-      "Estudo e pratico HTML, essa tecnologia está presente na maioria dos meus projetos.",
+      "Um app que consome a API ViaCEP para buscar e trazer informações sobre determinado cep.",
     icon: cep,
-    github: "https://github.com/guigvd/coffee-shop",
-    deploy: "https://guigvd.github.io/coffee-shop/",
+    github: "https://github.com/guigvd/search-cep",
+    deploy: "https://guigvd.github.io/search-cep/",
   },
 
   {
     id: 8,
-    title: "Coffee Shop",
+    title: "Pedido de namoro",
     subtitle:
-      "Estudo e pratico HTML, essa tecnologia está presente na maioria dos meus projetos.",
+      "Um pedido de namoro irrecusável.",
     icon: pedidoNamoro,
-    github: "https://github.com/guigvd/coffee-shop",
-    deploy: "https://guigvd.github.io/coffee-shop/",
+    github: "https://github.com/guigvd/pedido-namoro",
+    deploy: "https://guigvd.github.io/pedido-namoro/",
   },
 
   {
     id: 9,
-    title: "Coffee Shop",
+    title: "Clima tempo",
     subtitle:
-      "Estudo e pratico HTML, essa tecnologia está presente na maioria dos meus projetos.",
+      "Um app que consome duas APIs para buscar o clima e temperatura de determinada cidade.",
     icon: weather,
-    github: "https://github.com/guigvd/coffee-shop",
-    deploy: "https://guigvd.github.io/coffee-shop/",
+    github: "https://github.com/guigvd/weather-app",
+    deploy: "https://guigvd.github.io/weather-app/",
   },
 ];
