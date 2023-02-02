@@ -58,7 +58,7 @@ export const skills = [
     id: 5,
     title: "Angular",
     subtitle:
-      "Comecei a estudar o framework Angular em 2022 e desde então venho praticando suas fucionalidades como: components, filter e pipes, property binding, diretivas entre outras.",
+      "Estudo e pratico o framework Angular e suas fucionalidades como: components, filter e pipes, property binding, diretivas entre outras.",
     icon: angular,
   },
   {

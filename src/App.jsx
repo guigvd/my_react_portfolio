@@ -4,7 +4,8 @@ import DotGroup from "./scenes/DotGroup";
 import LineGradient from "./components/LineGradient";
 import MySkills from "./scenes/MySkills";
 import Projects from "./scenes/Projects";
-import Contact from "./scenes/Contact"
+import Contact from "./scenes/Contact";
+import Footer from "./scenes/Footer";
 
 import useMediaQuery from "./hooks/useMediaQuery";
 import { useEffect, useState } from "react";
@@ -88,6 +89,8 @@ function App() {
           <Contact />
         </motion.div>
       </div>
+
+      <Footer />
     </div>
   );
 }

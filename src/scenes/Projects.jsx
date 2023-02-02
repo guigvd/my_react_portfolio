@@ -71,7 +71,9 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Estes são alguns dos meus projetos em que desenvolvi.
+          Nesta seção, você pode ver uma seleção dos meus projetos mais recentes
+          e ambiciosos, que mostram a minha paixão e habilidade na área de
+          desenvolvimento.
         </p>
       </motion.div>
 

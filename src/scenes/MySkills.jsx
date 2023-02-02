@@ -49,8 +49,8 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-10">
-            Essas são as principais tecnologias que uso no meu dia a dia como
-            desenvolvedor. ~preencher depois~
+            Esta é uma lista das tecnologias com as quais eu tenho experiência e
+            que uso para desenvolver soluções avançadas e inovadoras.
           </p>
         </motion.div>
 
