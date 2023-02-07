@@ -1,12 +1,8 @@
 <h1 align="center">My portfolio</h1> 
 
-- Description:
+# Description:
 
-A beauty and fully responsive portfolio build with react.
-
-- Objective:
-
-Study in practice.
+A portfolio to show my knowledge in web development where I showcase my skills, my projects, and have a contact page.
 
 # Demonstration
 
