@@ -56,7 +56,7 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Me chamo Guilherme Veloso, sou um desenvolvedor Front-End, tenho 25
+            Me chamo Guilherme Veloso, sou um desenvolvedor Front-End, tenho 26
             anos, carioca, apaixonado por música, programação e games com o
             objetivo de me tornar um grande profissional full stack
           </p>

@@ -9,8 +9,11 @@ import nodejs from "./tec_nodejs.png";
 import ts from "./tec_ts.png";
 import java from "./tec_java.png";
 import mysql from "./tec_mysql.png";
+import mongodb from "./tec_mongodb.png";
+import nextjs from "./tec_nextjs.png";
+import stripe from "./tec_stripe.png";
 
-export { html, css, js, react, angular, git, nodejs, ts, java, mysql };
+export { html, css, js, react, angular, git, nodejs, ts, java, mysql, mongodb, nextjs, stripe };
 
 // PROJECTS
 import coffeeShop from "./proj_coffeeShop.png";

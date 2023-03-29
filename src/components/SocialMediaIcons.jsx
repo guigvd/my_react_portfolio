@@ -1,3 +1,5 @@
+// import { curriculo } from '../assets/docs/Guilherme_Veloso.pdf'
+
 const SocialMediaIcons = () => {
   return (
     <div className="flex justify-center md:justify-start my-10 gap-7">
@@ -23,6 +25,14 @@ const SocialMediaIcons = () => {
         rel="noreferrer"
       >
         <i className="fa-brands fa-github hover:text-slate-500 transition duration-500 text-4xl sm:text-3xl hover:scale-150"></i>
+      </a>
+
+      <a
+        href="/docs/Guilherme_Veloso.pdf"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i className="fa-regular fa-address-card hover:text-black transition duration-500 text-4xl sm:text-3xl hover:scale-150"></i>
       </a>
 
       <a

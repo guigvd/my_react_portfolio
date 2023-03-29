@@ -10,6 +10,9 @@ import {
   ts,
   java,
   mysql,
+  mongodb,
+  nextjs,
+  stripe
 } from "../assets";
 
 import {
@@ -63,38 +66,59 @@ export const skills = [
   },
   {
     id: 6,
+    title: "Next.Js",
+    subtitle:
+      "Eu utilizo o Next.js como framework para desenvolvimento de aplicações web em React. Ele oferece diversas funcionalidades e benefícios para desenvolvedores, permitindo criar aplicações complexas de forma mais rápida e eficiente.",
+    icon: nextjs,
+  },
+  {
+    id: 7,
     title: "Git",
     subtitle:
       "Uso o git para alocar e controlar versões dos meus projetos no Github.",
     icon: git,
   },
   {
-    id: 7,
+    id: 8,
     title: "TypeScript",
     subtitle:
       "Uso TypeScript quando preciso desenvolver aplicações mais complexas, pois tem grande potencial de detectar erros durante o desenvolvimento, tornando assim mais seguro e ágil a aplicação.",
     icon: ts,
   },
   {
-    id: 8,
+    id: 9,
     title: "Node.js",
     subtitle:
       "Uso o Node.js para processar, executar e desenvolver aplicações em JavaScript.",
     icon: nodejs,
   },
   {
-    id: 9,
+    id: 10,
     title: "Java",
     subtitle:
       "Estudo e pratico Java como linguagem de backend e suas funcionalidades como: fluxo de controle, orientação a objetos, herança, polimorfismo entre oturas.",
     icon: java,
   },
   {
-    id: 10,
+    id: 11,
+    title: "MongoDB",
+    subtitle:
+      "Utilizo frequentemente o MongoDB como banco de dados, pois ele oferece uma excelente opção para aplicações que requerem escalabilidade e flexibilidade.",
+    icon: mongodb,
+  },
+  {
+    id: 12,
     title: "MySQL",
     subtitle:
       "Uso o MySQL para criar bancos de dados e executar comandos como o insert, delete, update e select.",
     icon: mysql,
+  },
+  {
+    id: 13,
+    title: "Stripe",
+    subtitle:
+      "Stripe é uma plataforma de pagamentos online líder no mercado, que oferece uma ampla gama de ferramentas e recursos para ajudar empresas a gerenciar seus pagamentos online com segurança e eficiência.",
+    icon: stripe,
   },
 ];
 
