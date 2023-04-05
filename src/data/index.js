@@ -33,91 +33,91 @@ export const skills = [
     id: 1,
     title: "Html",
     subtitle:
-      "Estudo e pratico HTML, essa tecnologia está presente na maioria dos meus projetos.",
+      "Sou especializado em HTML, a linguagem base da web. Crio páginas web com estrutura clara e semântica para garantir a melhor experiência do usuário.",
     icon: html,
   },
   {
     id: 2,
     title: "CSS",
     subtitle:
-      "Igual ao html, o css também está na maioria dos meus projetos, fazendo uso de seletores, Flexbox, responsividade entre outras.",
+      "Com habilidades em seletores, Flexbox, e técnicas de responsividade, o CSS é uma ferramenta essencial em meus projetos de desenvolvimento web.",
     icon: css,
   },
   {
     id: 3,
     title: "JavaScript",
     subtitle:
-      "Estudo e venho praticado JavaScript e suas funcionalidades como: fluxo de controle, estrutura de repetições, orientação a objetos, JSON, API entre outras.",
+      "Com sólido conhecimento em fluxo de controle, estruturas de repetição, orientação a objetos, JSON, APIs, e outras funcionalidades do JavaScript, sou capaz de criar soluções dinâmicas e interativas para projetos web.",
     icon: js,
   },
   {
     id: 4,
     title: "React",
     subtitle:
-      "Estudo e pratico a biblioteca React e suas funcionalidades como: hooks, components, React Router , forms entre outras.",
+      "Com experiência em desenvolvimento com a biblioteca React, possuo habilidades em diversos aspectos da biblioteca, como o uso de hooks, criação de components reutilizáveis, configuração do React Router, construção de formulários e muito mais.",
     icon: react,
   },
   {
     id: 5,
     title: "Angular",
     subtitle:
-      "Estudo e pratico o framework Angular e suas fucionalidades como: components, filter e pipes, property binding, diretivas entre outras.",
+      "Com sólida experiência em desenvolvimento com Angular, possuo habilidades em diversas funcionalidades do framework, como criação de components, uso de filter e pipes, property binding, diretivas e muito mais.",
     icon: angular,
   },
   {
     id: 6,
     title: "Next.Js",
     subtitle:
-      "Eu utilizo o Next.js como framework para desenvolvimento de aplicações web em React. Ele oferece diversas funcionalidades e benefícios para desenvolvedores, permitindo criar aplicações complexas de forma mais rápida e eficiente.",
+      "Com experiência em desenvolvimento com Next.js, posso aproveitar ao máximo as funcionalidades que o framework oferece para criar aplicações web robustas e eficientes em React.",
     icon: nextjs,
   },
   {
     id: 7,
     title: "Git",
     subtitle:
-      "Uso o git para alocar e controlar versões dos meus projetos no Github.",
+      "Com experiência em controle de versão de código com Git, sou capaz de gerenciar e compartilhar meus projetos no GitHub de forma eficiente.",
     icon: git,
   },
   {
     id: 8,
     title: "TypeScript",
     subtitle:
-      "Uso TypeScript quando preciso desenvolver aplicações mais complexas, pois tem grande potencial de detectar erros durante o desenvolvimento, tornando assim mais seguro e ágil a aplicação.",
+      "Com experiência em desenvolvimento com TypeScript, sou capaz de criar aplicações mais complexas com maior segurança e eficiência. Com sua capacidade de detectar erros durante o desenvolvimento, permite criar soluções ágeis e eficientes para projetos web.",
     icon: ts,
   },
   {
     id: 9,
     title: "Node.js",
     subtitle:
-      "Uso o Node.js para processar, executar e desenvolver aplicações em JavaScript.",
+      "Com experiência em desenvolvimento com Node.js, sou capaz de criar e executar aplicações JavaScript no lado do servidor.",
     icon: nodejs,
   },
   {
     id: 10,
     title: "Java",
     subtitle:
-      "Estudo e pratico Java como linguagem de backend e suas funcionalidades como: fluxo de controle, orientação a objetos, herança, polimorfismo entre oturas.",
+      "Com experiência em desenvolvimento com Java, possuo habilidades em diversas funcionalidades da linguagem, como fluxo de controle, orientação a objetos, herança, polimorfismo e muito mais.",
     icon: java,
   },
   {
     id: 11,
     title: "MongoDB",
     subtitle:
-      "Utilizo frequentemente o MongoDB como banco de dados, pois ele oferece uma excelente opção para aplicações que requerem escalabilidade e flexibilidade.",
+      "Com experiência em desenvolvimento com MongoDB, utilizo frequentemente este banco de dados para aplicações web que requerem escalabilidade e flexibilidade.",
     icon: mongodb,
   },
   {
     id: 12,
     title: "MySQL",
     subtitle:
-      "Uso o MySQL para criar bancos de dados e executar comandos como o insert, delete, update e select.",
+      "Com experiência em desenvolvimento com MySQL, sou capaz de criar bancos de dados relacionais e executar comandos como insert, delete, update e select.",
     icon: mysql,
   },
   {
     id: 13,
     title: "Stripe",
     subtitle:
-      "Stripe é uma plataforma de pagamentos online líder no mercado, que oferece uma ampla gama de ferramentas e recursos para ajudar empresas a gerenciar seus pagamentos online com segurança e eficiência.",
+      "Com experiência em integração com o Stripe, sou capaz de ajudar empresas a gerenciarem seus pagamentos online com eficiência e segurança. A plataforma oferece recursos como gerenciamento de assinaturas, pagamentos com cartão de crédito e débito, transferências bancárias e muito mais.",
     icon: stripe,
   },
 ];
