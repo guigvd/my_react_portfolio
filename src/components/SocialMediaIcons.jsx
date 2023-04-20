@@ -1,4 +1,3 @@
-// import { curriculo } from '../assets/docs/Guilherme_Veloso.pdf'
 
 const SocialMediaIcons = () => {
   return (
