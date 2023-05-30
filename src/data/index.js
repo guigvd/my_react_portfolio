@@ -20,7 +20,7 @@ import {
   evogym,
   hoobank,
   cep,
-  ecommer,
+  brilhoFino,
   pedidoNamoro,
   sociopedia,
   store,
@@ -144,12 +144,12 @@ export const projects = [
   },
   {
     id: 3,
-    title: "ECOMMER",
+    title: "Brilho Fino",
     subtitle:
-      "Uma loja online de camisas na qual contem uma lista com os itens, um carrinho ao qual adicionar os items e uma seção de checkout.",
-    icon: ecommer,
-    github: "https://github.com/guigvd/react-ecommer",
-    deploy: null,
+      "Projeto de e-commerce feito em Next.js e JavaScript, com um carrossel de itens, lista filtrável, página de detalhes dos produtos, carrinho de compras com resumo dos itens adicionados e página de checkout integrada com o Stripe.",
+    icon: brilhoFino,
+    github: "https://github.com/guigvd/next-brilho_fino",
+    deploy: "https://next-brilho-fino.vercel.app/",
   },
 
   {

@@ -20,10 +20,10 @@ import coffeeShop from "./proj_coffeeShop.png";
 import evogym from "./proj_evogym.png";
 import hoobank from "./proj_hoobank.png";
 import cep from "./proj_cep.png";
-import ecommer from "./proj_ecommer.png";
+import brilhoFino from "./proj_brilhoFino.png";
 import pedidoNamoro from "./proj_pedidoNamoro.png";
 import sociopedia from "./proj_sociopedia.png";
 import store from "./proj_store.png";
 import weather from "./proj_weather.png";
 
-export { coffeeShop, evogym, hoobank, cep, ecommer, pedidoNamoro, sociopedia, store, weather };
+export { coffeeShop, evogym, hoobank, cep, brilhoFino, pedidoNamoro, sociopedia, store, weather };
