@@ -12,7 +12,9 @@ import {
   mysql,
   mongodb,
   nextjs,
-  stripe
+  stripe,
+  python,
+  tailwindcss
 } from "../assets";
 
 import {
@@ -54,35 +56,42 @@ export const skills = [
     id: 4,
     title: "React",
     subtitle:
-      "Com experiência em desenvolvimento com a biblioteca React, possuo habilidades em diversos aspectos da biblioteca, como o uso de hooks, criação de components reutilizáveis, configuração do React Router, construção de formulários e muito mais.",
+      "Sólida experiência em desenvolvimento com a biblioteca React, possuo habilidades em diversos aspectos da biblioteca, como o uso de hooks, Redux, criação de components reutilizáveis, construção de formulários e muito mais.",
     icon: react,
+  },
+  {
+    id: 14,
+    title: "Tailwind CSS",
+    subtitle:
+      "Sólida experiência com o Tailwind CSS, que é um framework de CSS focado em utilidade. Ele fornece diversas classes utilitárias, simplificando assim a criação de interfaces de usuário.",
+    icon: tailwindcss,
   },
   {
     id: 5,
     title: "Angular",
     subtitle:
-      "Com sólida experiência em desenvolvimento com Angular, possuo habilidades em diversas funcionalidades do framework, como criação de components, uso de filter e pipes, property binding, diretivas e muito mais.",
+      "Experiência básica em desenvolvimento com Angular, possuo habilidades em diversas funcionalidades do framework, como criação de components, uso de filter e pipes, property binding e diretivas",
     icon: angular,
   },
   {
     id: 6,
     title: "Next.Js",
     subtitle:
-      "Com experiência em desenvolvimento com Next.js, posso aproveitar ao máximo as funcionalidades que o framework oferece para criar aplicações web robustas e eficientes em React.",
+      "Com sólida experiência em desenvolvimento com Next.js, posso aproveitar ao máximo as funcionalidades que o framework oferece para criar aplicações web robustas e eficientes em React.",
     icon: nextjs,
   },
   {
     id: 7,
     title: "Git",
     subtitle:
-      "Com experiência em controle de versão de código com Git, sou capaz de gerenciar e compartilhar meus projetos no GitHub de forma eficiente.",
+      "Conhecimento básico em controle de versão de código com Git, sou capaz de gerenciar e compartilhar meus projetos de forma eficiente.",
     icon: git,
   },
   {
     id: 8,
     title: "TypeScript",
     subtitle:
-      "Com experiência em desenvolvimento com TypeScript, sou capaz de criar aplicações mais complexas com maior segurança e eficiência. Com sua capacidade de detectar erros durante o desenvolvimento, permite criar soluções ágeis e eficientes para projetos web.",
+      "Minha sólida experiência em TypeScript permite a criação de aplicações web mais seguras e eficientes, graças à detecção de erros durante o desenvolvimento, resultando em soluções ágeis.",
     icon: ts,
   },
   {
@@ -96,28 +105,35 @@ export const skills = [
     id: 10,
     title: "Java",
     subtitle:
-      "Com experiência em desenvolvimento com Java, possuo habilidades em diversas funcionalidades da linguagem, como fluxo de controle, orientação a objetos, herança, polimorfismo e muito mais.",
+      "Conhecimento básico em desenvolvimento com Java, possuo habilidades em diversas funcionalidades da linguagem, como fluxo de controle, orientação a objetos, herança, polimorfismo e muito mais.",
     icon: java,
+  },
+  {
+    id: 15,
+    title: "Python",
+    subtitle:
+      "Tenho conhecimento básico em Python e estou estudando a linguagem para usá-la em desenvolvimento de aplicativos complexos e análise de dados, devido à sua ampla utilidade nesses campos.",
+    icon: python,
   },
   {
     id: 11,
     title: "MongoDB",
     subtitle:
-      "Com experiência em desenvolvimento com MongoDB, utilizo frequentemente este banco de dados para aplicações web que requerem escalabilidade e flexibilidade.",
+      "Com grande experiência em desenvolvimento com MongoDB, utilizo frequentemente este banco de dados para aplicações web que requerem escalabilidade e flexibilidade.",
     icon: mongodb,
   },
   {
     id: 12,
     title: "MySQL",
     subtitle:
-      "Com experiência em desenvolvimento com MySQL, sou capaz de criar bancos de dados relacionais e executar comandos como insert, delete, update e select.",
+      "Possuo conhecimento básico em desenvolvimento com MySQL, sou capaz de criar bancos de dados relacionais e executar comandos como insert, delete, update e select.",
     icon: mysql,
   },
   {
     id: 13,
     title: "Stripe",
     subtitle:
-      "Com experiência em integração com o Stripe, sou capaz de ajudar empresas a gerenciarem seus pagamentos online com eficiência e segurança. A plataforma oferece recursos como gerenciamento de assinaturas, pagamentos com cartão de crédito e débito, transferências bancárias e muito mais.",
+      "Com experiência em integração com o Stripe. A plataforma oferece recursos como gerenciamento de assinaturas, pagamentos com cartão de crédito e débito, transferências bancárias e muito mais.",
     icon: stripe,
   },
 ];

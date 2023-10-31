@@ -12,8 +12,10 @@ import mysql from "./tec_mysql.png";
 import mongodb from "./tec_mongodb.png";
 import nextjs from "./tec_nextjs.png";
 import stripe from "./tec_stripe.png";
+import tailwindcss from "./tec_tailwindcss.png";
+import python from "./tec_python.png";
 
-export { html, css, js, react, angular, git, nodejs, ts, java, mysql, mongodb, nextjs, stripe };
+export { html, css, js, react, angular, git, nodejs, ts, java, mysql, mongodb, nextjs, stripe, tailwindcss, python };
 
 // PROJECTS
 import coffeeShop from "./proj_coffeeShop.png";
